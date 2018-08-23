@@ -10,18 +10,6 @@ function theBeatlesPlay(musicians, instruments) {
   return array
 }
 
-function johnLennonFacts(facts) {
-  const emphasisFacts = []
-
-  let i = 0  
-  while (i < facts.length) {
-    emphasisFacts.push(`${facts[1]}!!!`);
-    i++
-  }
-  
-  return emphasisFacts
-}
-
 // function johnLennonFacts(facts) {
 //   const shoutedFacts = []
 
@@ -33,3 +21,15 @@ function johnLennonFacts(facts) {
 
 //   return shoutedFacts
 // }
+
+function johnLennonFacts(facts) {
+  const newFacts = []
+  
+  let i = 0
+  while(i < facts.length) {
+    newFacts.push(`${facts[i]}!!!`)
+    i++
+  }
+  
+  return newFacts
+}
