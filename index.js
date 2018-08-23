@@ -4,8 +4,7 @@ function theBeatlesPlay(musicians, instruments) {
   const array = []
   
   for(let i=0, len = musicians.length; i < len; i++) {
-    array.push(`${musicians.shift()} plays ${instruments[1]}`)
-    musicians.
+    array.push(`${musicians.shift()} plays ${instruments.shift()}`)
   }
   
   return array
