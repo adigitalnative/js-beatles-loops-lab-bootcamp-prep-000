@@ -3,5 +3,5 @@
 function theBeatlesPlay(musicians, instruments) {
   const array = []
   
-  for(let i=0; 1=musicians)
+  for(let i=0; l = musicians.length)
 }
